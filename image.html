@@ -11,17 +11,21 @@
                 border-radius: 150px;
             }
             .search_bar{
-                width: 170px;
+                margin-top: ;
+                width: 300px;
                 height: 30px;
-                border-radius: 5px;
-                border-width: 1px;
-                border-color: rgb(206, 197, 197);
-                border-style: solid;
+                border: none;
+                box-shadow: 1px 1.5px 10px rgba(0, 0, 0, 0.25);
+                border-radius: 15px;
+                
+            }
+            .search_bar:focus{
+                outline: none;
             }
         </style>
     </head>
     <body>
         <img class="image" src="cat.webp">
-        <input type="text" class="search_bar" placeholder="Search">
+        <input type="text" class="search_bar" placeholder="Search Google or type a URL">
     </body>
 </html>
