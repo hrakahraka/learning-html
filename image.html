@@ -4,19 +4,20 @@
         <title>images</title>
         <style>
             .image{
-                width: 300px;
-                height: 300px;
+                width: 40px;
+                height: 40px;
                 object-fit: cover;
                 object-position: center;
                 border-radius: 150px;
+                vertical-align: middle
             }
             .search_bar{
                 margin-top: ;
-                width: 300px;
+                width: 200px;
                 height: 30px;
                 border: none;
-                box-shadow: 1px 1.5px 10px rgba(0, 0, 0, 0.25);
                 border-radius: 5px;
+                vertical-align: middle;
                 
             }
             .search_bar:focus{
@@ -27,21 +28,24 @@
                 font-family: Arial;
                 font-size: small;
                 color: gray;
+                vertical-align: middle;
             }
             .button{
                 margin-top: 10px;
-                padding-left: 100px;
-                padding-right: 100px;
-                padding-bottom: 10px;
-                padding-top: 10px;
+                padding-left: 13px;
+                padding-right: 13px;
+                padding-bottom: 5px;
+                padding-top: 5px;
                 border: none;
                 border-radius: 50px;
-                background-color: rgb(0, 122, 204);
+                background-color: rgb(7, 160, 221);
                 color: white;
                 font-family: Arial;
-                font-size: medium;
+                font-size: 15px;
+                font-weight: bold;
                 cursor: pointer;
                 transition: opacity 0.15s;
+                vertical-align: middle;
             }
             .button:active{
                 opacity: 0.5;
@@ -50,9 +54,7 @@
     </head>
     <body>
         <img class="image" src="cat.webp">
-        <p class="text">Email</p>
-        <input type="text" class="search_bar">
-        <p class="text">By clicking Agree & Join, You agree to the privacy policy.</p>
-        <button class="button">Agree & Join</button>
+        <input type="text" class="search_bar" placeholder="What's happening?">
+        <button class="button">Tweet</button>
     </body>
 </html>
