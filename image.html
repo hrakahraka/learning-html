@@ -16,16 +16,43 @@
                 height: 30px;
                 border: none;
                 box-shadow: 1px 1.5px 10px rgba(0, 0, 0, 0.25);
-                border-radius: 15px;
+                border-radius: 5px;
                 
             }
             .search_bar:focus{
                 outline: none;
             }
+            .text{
+                margin-bottom: 2px;
+                font-family: Arial;
+                font-size: small;
+                color: gray;
+            }
+            .button{
+                margin-top: 10px;
+                padding-left: 100px;
+                padding-right: 100px;
+                padding-bottom: 10px;
+                padding-top: 10px;
+                border: none;
+                border-radius: 50px;
+                background-color: rgb(0, 122, 204);
+                color: white;
+                font-family: Arial;
+                font-size: medium;
+                cursor: pointer;
+                transition: opacity 0.15s;
+            }
+            .button:active{
+                opacity: 0.5;
+            }
         </style>
     </head>
     <body>
         <img class="image" src="cat.webp">
-        <input type="text" class="search_bar" placeholder="Search Google or type a URL">
+        <p class="text">Email</p>
+        <input type="text" class="search_bar">
+        <p class="text">By clicking Agree & Join, You agree to the privacy policy.</p>
+        <button class="button">Agree & Join</button>
     </body>
 </html>
