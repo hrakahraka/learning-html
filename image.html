@@ -44,16 +44,27 @@
                 font-weight: bold;
                 cursor: pointer;
                 transition: opacity 0.15s;
-                vertical-align: middle;
+                
             }
             .button:active{
                 opacity: 0.5;
             }
+            div{
+                display: inline-block;
+                box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+                padding: 10px;
+                border-radius: 5px;
+                margin-top: 250px;
+                margin-left: 450px;
+            }
         </style>
     </head>
     <body>
-        <img class="image" src="cat.webp">
-        <input type="text" class="search_bar" placeholder="What's happening?">
-        <button class="button">Tweet</button>
+        <div>
+            <img class="image" src="cat.webp">
+            <input type="text" class="search_bar" placeholder="What's happening?">
+            <button class="button">Tweet</button>
+        </div>
+        
     </body>
 </html>
