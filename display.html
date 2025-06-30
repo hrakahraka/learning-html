@@ -2,20 +2,41 @@
 <html>
     <head>
         <style>
-           p{
-            display:inline-block;
-            width: 200px;
-            margin-right: 30px;
-           }
-           p,button{
-            vertical-align: middle;
-           }
+          input{
+            height: 35px;
+            width: 75px;
+            border-radius: 5px;
+            margin-left: 3px;
+          }
+          .Email{
+            display: block;
+            width: 165px;
+          }
+          button{
+            height: 40px;
+            width: 170px;
+            border-radius: 5px;
+            background-color: rgb(0, 127, 212);
+            color: white;
+            font-family: Arial;
+            font-weight: bold;
+            border: none;
+          }
+          input,.Email:focus{
+            outline: none;
+            border: solid;
+            border-width: 1px;
+          }
+          .Email,button{
+            margin: 3px;
+          }
         </style>
     </head>
 
     <body>
-       <p>thanks for chatting if you liked the servise please give us a feedback</p>
-       <button>yes</button>
-       <button>no</button>
+       <input type="text" placeholder="First Name">
+       <input type="text" placeholder="Last Name">
+       <input type="text" placeholder="Email" class="Email">
+       <button>Sign Up</button>
     </body>
 </html>
